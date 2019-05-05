@@ -3,18 +3,19 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Fudi</title>
-		<link rel="stylesheet" href="styles/normalize.css">	
 		<link rel="stylesheet" href="styles/fonts.css">			
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/grid.css">	
 		<link rel="stylesheet" href="styles/style.css">
-		<link rel="shortcut icon" href="img/fork.png" type="image/x-icon">
+		<link rel="shortcut icon" href="img/fork.png" type="image/x-icon">			
 	</head>
 	<body>
 		<!-- Шапка  -->
 		<header>
 			<div class="container">
 				<div class="block-menu clearfix">
-					<img src="img/logo.png" alt="Logo" class="logo">
-					<nav>
+					<img class="menu__logo" src="img/logo.png" alt="Logo">
+					<nav class="menu__nav">
 						<ul class="menu">
 							<li class="menu__item">
 								<a href="#" class="item__link">LOG IN</a>
@@ -34,9 +35,9 @@
 					<div class="titles__first">
 						Find your Favorite
 					</div>
-					<h1>RECIPES</h1>
+					<h1 class="titles__main">RECIPES</h1>
 				</div>
-				<a href="#" class="button">GET STARTED</a>
+				<a href="#section_1" class="button">GET STARTED</a>
 				<div class="titles">
 					<div class="titles__second">
 						OR SEND US YOUR OWN RECIPES AND <a href="#"><span class="titles__second--line">GET REWARDED!</span></a>
@@ -46,31 +47,215 @@
 		</header>
 		<!-- Секція 1 -->
 		<section>
-			<div class="container"></div>
+			<div class="container">
+				<div class="section1" id="section_1">
+					<div class="section1__item">
+						<div class="item__rondo">
+							<img class="rondo__img" src="img/burger.png" alt="Burger">
+						</div>
+						<h2 class="item__title">GET INSPIRED</h2>
+						<p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.</p>
+					</div>
+					<div class="section1__item">
+						<div class="item__rondo">
+							<img class="rondo__img" src="img/money.png" alt="Money">
+						</div>
+						<h2 class="item__title">GET REWARDED</h2>
+						<p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.</p>
+					</div>
+					<div class="section1__item">
+						<div class="item__rondo">
+							<img class="rondo__img" src="img/Monarch.png" alt="Monarch">
+						</div>
+						<h2 class="item__title">GET SOCIAL</h2>
+						<p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma.	Aliquam erat volutpat. </p>
+					</div>
+				</div>
+			</div>
 		</section>
 		<!-- Секція 2 -->
-		<section>
-			<div class="container"></div>
+		<section class="section2">
+			<div class="container">
+				<div class="clearfix">
+					<img class="phone" src="img/iphone.png" alt="Iphone">
+					<div class="introducing">
+						<h2 class="introducing__title">INTRODUCING THE FUDI APP</h2>
+						<p class="introducing__text">Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet felis sit amet diam mollis ullamcorper. Nullam consequat sem a ante vest ibulum tristique. Suspendisse tristique lacus ac mattis porta.</p>
+						<p class="introducing__text">Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet libero. In libero dui, eleifend eu nisi id, egestas fringilla odio. In varius quam a mas sa hendrerit ullamcorper a eu justo. Suspendisse porta mattis convallis.	Aenean tempus ligula ac odio rhoncus, quis aliquam dolor accumsan. </p>
+						<p class="introducing__text">Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam	malesuada. Duis vehicula a nibh id hendrerit. Donec sit amet ultrices ante, a mattis massa. </p>
+						<a href="#" class="story__link">
+							<img class="story__icon" src="img/app_story.png" alt="AppStory">
+						</a>
+						<a href="#" class="story__link">
+							<img class="story__icon" src="img/google_play.png" alt="Google Play">
+						</a>				
+					</div>
+				</div>
+			</div>
 		</section>
 		<!-- Секція 3 -->
-		<section>
-			<div class="container"></div>
+		<section class="section3">
+			<div class="container">
+				<div class="section3__rondo"></div>
+				<div class="section3__text">
+					“I am so happy because I found this recipe, and it just made my life easier.<br/>Thanks  so much for sharing!”
+				</div>
+				<div class="section__initial">
+					- Michael Dawson, San Francisco, CA -
+				</div>
+				<div class="section3__slider">
+					<div class="section3__point"></div>
+					<div class="section3__point"></div>
+					<div class="section3__point"></div>
+				</div>
+			</div>			
 		</section>
 		<!-- Секція 4 -->
-		<section>
-			<div class="container"></div>
+		<section class="section4">
+			<div class="container">
+				<div class="section4__title">BROWSE BY CUISINES</div>
+			</div>
 		</section>
 		<!-- Секція 5 -->
 		<section>
-			<div class="container"></div>
+			<!-- 1-ий рядок -->
+			<div class="grid-box">
+				<div class="grid clear-fix">
+				<div class="width-1-5">
+					<div class="grid__item">
+						<img class="grid__img" src="img/food/food1.jpg" alt="">
+						<div class="item__info">
+							<p class="item__recipes">327 Recipes</p>
+							<h3 class="item__name">ITALIAN</h3>
+						</div>
+					</div>
+				</div>
+				<div class="width-1-5">
+					<div class="grid__item">
+						<img class="grid__img" src="img/food/food2.jpg" alt="">
+						<div class="item__info">
+							<p class="item__recipes">856 Recipes</p>
+							<h3 class="item__name">INDIAN</h3>
+						</div>
+					</div>
+				</div>
+				<div class="width-1-5">
+					<div class="grid__item">
+						<img class="grid__img" src="img/food/food3.jpg" alt="">
+						<div class="item__info">
+							<p class="item__recipes">27 Recipes</p>
+							<h3 class="item__name">FRENCH</h3>
+						</div>
+					</div>
+				</div>
+				<div class="width-1-5">
+					<div class="grid__item">
+						<img class="grid__img" src="img/food/food4.jpg" alt="">
+						<div class="item__info">
+							<p class="item__recipes">174 Recipes</p>
+							<h3 class="item__name">STEAKHOUSE</h3>
+						</div>
+					</div>
+				</div>
+				<div class="width-1-5">
+					<div class="grid__item">
+						<img class="grid__img" src="img/food/food5.jpg" alt="">
+						<div class="item__info">
+							<p class="item__recipes">731 Recipes</p>
+							<h3 class="item__name">SEAFOOD</h3>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<!-- 2-ий рядок -->
+			<div class="grid clear-fix">
+				<div class="width-1-5">
+					<div class="grid__item">
+						<img class="grid__img" src="img/food/food6.jpg" alt="">
+						<div class="item__info">
+							<p class="item__recipes">237 Recipes</p>
+							<h3 class="item__name">SUSHI</h3>
+						</div>
+					</div>
+				</div>
+				<div class="width-1-5">
+					<div class="grid__item">
+						<img class="grid__img" src="img/food/food7.jpg" alt="">
+						<div class="item__info">
+							<p class="item__recipes">529 Recipes</p>
+							<h3 class="item__name">MEXICAN</h3>
+						</div>
+					</div>
+				</div>
+				<div class="width-1-5">
+					<div class="grid__item">
+						<img class="grid__img" src="img/food/food8.jpg" alt="">
+						<div class="item__info">
+							<p class="item__recipes">145 Recipes</p>
+							<h3 class="item__name">CHINESE</h3>
+						</div>
+					</div>
+				</div>
+				<div class="width-1-5">
+					<div class="grid__item">
+						<img class="grid__img" src="img/food/food9.jpg" alt="">
+						<div class="item__info">
+							<p class="item__recipes">327 Recipes</p>
+							<h3 class="item__name">PIZZA</h3>
+						</div>
+					</div>
+				</div>
+				<div class="width-1-5">
+					<div class="grid__item">
+						<img class="grid__img" src="img/food/food10.jpg" alt="">
+						<div class="item__info">
+							<p class="item__recipes">1.437 Recipes</p>
+							<h3 class="item__name">AMERICAN</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
 		</section>
 		<!-- Секція 6 -->
-		<section>
-			<div class="container"></div>
+		<section class="section6">
+			<div class="container">
+				<div class="total">
+					<div class="total__block">
+						<div class="total__numbers">23,567</div>
+						<div class="total__terms">Recipes Available</div>
+					</div>
+					<div class="total__block">
+						<div class="total__numbers">431,729</div>
+						<div class="total__terms">Active Users</div>
+					</div>
+					<div class="total__block">
+						<div class="total__numbers">892,173</div>
+						<div class="total__terms">Positive Reviews</div>
+					</div>
+					<div class="total__block">
+						<div class="total__numbers">56,581</div>
+						<div class="total__terms">Photos & Videos</div>
+					</div>
+					<div class="total__block">
+						<div class="total__numbers">3,182</div>
+						<div class="total__terms">Spices and Herbs</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<!-- Підвал -->
 		<footer>
-			<div class="container"></div>
+			<div class="container clearfix">
+				<div class="copyright">
+					&copy 2014 Fudi. All Rights Reserved.
+				</div>
+				<div class="design">DESIGN BY: 
+					<a href="#">
+						<span class="design--link">WWW.BEKADES.COM</span>
+					</a>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>
