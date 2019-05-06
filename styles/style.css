@@ -311,7 +311,7 @@ header {
 /*______Секція 3______*/
 
 .section3 {
-	background: url(../img/bg-section-3.png) no-repeat 50% / cover #4a3949;
+	background: url(../img/bg-section-3.png) no-repeat 50% 100%  / cover #4a3949;
 	text-align: center;
 	color: #fff;
 	padding: 80px 0;	
