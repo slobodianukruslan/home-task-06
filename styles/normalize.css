@@ -1,21 +1,15 @@
 * {
-	/* box-sizing */
-	 box-sizing: border-box;
-	 -webkit-box-sizing: border-box;
-	 -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 
-   /* Скидання відступів браузера */
-   margin: 0;
-   padding: 0;
-  /* Для плавної анімації*/
-   transition: all .1s ease-in;
-  /*Заборона лінії у фокусі*/
-   outline: none;
- }
+  margin: 0;
+  padding: 0;
+  transition: all .1s ease-in;
+  outline: none;
+}
 
- /* Класс псевдораспорки */
- 
-.clearfix::after {
+ .clearfix::after {
   content: "";
   display: table;
   clear: both;

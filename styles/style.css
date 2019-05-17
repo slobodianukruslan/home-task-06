@@ -4,8 +4,7 @@ body {
 
 header {
 	background: url(../img/main-image.jpg) no-repeat center top / cover;
-	padding-bottom: 240px;	
-	/*height: 100vh;*/
+	padding-bottom: 240px;		
 }
 
 .container {
@@ -13,7 +12,7 @@ header {
 	margin: 0 auto;	
 } 
 
-/*______Шапка_____ */
+/*______Header_____ */
 
 .menu__logo {
 	float: left;
@@ -62,14 +61,13 @@ header {
 .item__btn:active
  {
 	color: #2553D5;
-	/*border: 4px solid #070269;*/
 	background-color: #C8D4FF;
 	opacity: 0.8;
 	box-shadow: 0 0 25px 2px;
 	transition: 0s;
 }
 
-/*____Иконка бургер-меню_____*/
+/*____Icon burger-menu_____*/
 
 .item__btn {
 	display: block;
@@ -179,7 +177,7 @@ header {
 	color: #51B3FF;	
 }
 
-/*______Секція 1______*/
+/*______Section 1______*/
 
 .section1 {
 	background: #ffffff;
@@ -247,7 +245,7 @@ header {
 }
 
 
-/*______Секція 2______*/
+/*______Section 2______*/
 
 .section2 {
 	background-color: #f7f7f7;
@@ -308,7 +306,7 @@ header {
 	width: 100%;	
 }
 
-/*______Секція 3______*/
+/*______Section 3______*/
 
 .section3 {
 	background: url(../img/bg-section-3.png) no-repeat 50% 100%  / cover #4a3949;
@@ -371,7 +369,7 @@ header {
 	cursor: pointer;
 }
 
-/*______Секція 4______*/
+/*______Section 4______*/
 
 .section4 {
 	background-color: #fff;
@@ -397,7 +395,7 @@ header {
 	transition: 1s;	
 }
 
-/*______Секція 5______*/
+/*______Section 5______*/
 
 .grid__img {
 	width: 100%;
@@ -446,7 +444,7 @@ header {
 	font-size: 40px;
 }
 
-/*______Секція 6______*/
+/*______Section 6______*/
 
 .section6 {
 	background-color: #fff;
@@ -473,7 +471,7 @@ header {
 	font-size: 16px;
 }
 
-/*______Підвал______*/
+/*______Footer______*/
 
 footer {
 	background-color: #f7f7f7;
